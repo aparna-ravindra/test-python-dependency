@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygithub = "*"
+python-dotenv = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+numpy = "*"
+regex = "*"
+pytest = "*"
+requests = "*"
+pandas = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
